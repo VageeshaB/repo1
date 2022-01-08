@@ -1,0 +1,268 @@
+    1  $ sudo apt install git-all
+    2  sudo apt install git-all
+    3  sudo apt install git-all --fix-missing?
+    4  sudo apt install git-all --fix-missing
+    5  apt-get update
+    6  sudo apt-update
+    7  sudo apt-get update
+    8  sudo apt install git-all --fix-missing
+    9  youtube-dl -ctf 18 "https://www.youtube.com/watch?v=Cr8XSljgEPI&list=PLhW3qG5bs-L_ZCOA4zNPSoGbnVQ-rp_dG&index=6"
+   10  youtube-dl -ctf 18 "https://www.youtube.com/watch?v=woMAXn4e8NA&list=PLhW3qG5bs-L9ykz8UGBIp_5o62K1cMNo9&index=1"
+   11  lsof
+   12  lsof vageesha
+   13  fuser
+   14  fuser -l
+   15  fuser -u
+   16  csh
+   17  ksh
+   18  posix
+   19  fish
+   20  zsh
+   21  tcsh
+   22  uname -a
+   23  lsb_release -a
+   24  uptime
+   25  hostname
+   26  hostname-i
+   27  hostname -i
+   28  man hier
+   29  last rebott
+   30  last reboot
+   31  dmesg
+   32  lsdev
+   33  cat /proc/cpuinfo
+   34  cat /proc/meminfo
+   35  cat /proc/devices
+   36  lshal
+   37  lsusb
+   38  lspci
+   39  top
+   40  mpstat 1
+   41  vmstat
+   42  mpstat
+   43  iostat
+   44  systat
+   45  ipcs -a
+   46  tail /var/lag/warn
+   47  tail /var/log/warn
+   48  id
+   49  last
+   50  who
+   51  aroupadd admin
+   52  grep default: /etc/inittab
+   53  init
+   54  chkconfig
+   55  chkconfig --list
+   56  lsmod
+   57  make
+   58  ps
+   59  top vageesha
+   60  top 1
+   61  top R
+   62  du -sh
+   63  du -sh *
+   64  du -csh
+   65  ls -lsr
+   66  history > file.txt, copied_file.txt 
+   67  history > file.txt
+   68  history > copied_file.txt
+   69  tail file.txt
+   70  fstat -u vageesha
+   71  rm file.txt,
+   72  exit
+   73  ls
+   74  ls -a
+   75  ls -lh
+   76  ls -lah
+   77  ls -lrt
+   78  pwd
+   79  touch file.txt
+   80  vi file.txt
+   81  rm file.txt
+   82  vi file.txt
+   83  head file.txt
+   84  tail file.txt
+   85  grep d file.txt
+   86  sort file.txt
+   87  du file.txt
+   88  du -sh file.txt
+   89  du -sk file.txt
+   90  cat /etc/group
+   91  id vageesha
+   92  vi /etc/fstash
+   93  vi /etc/fstab
+   94  history file.txt
+   95  history > file.txt
+   96  vi file.txt
+   97  cat file.txt
+   98  cat -n file.txt
+   99  cat -s file.txt
+  100  less file.txt
+  101  grep -d file.txt
+  102  grep -n d file.txt
+  103  grep -r d file.txt
+  104  grep -r do file.txt
+  105  grep -w do file.txt
+  106  grep -nw do file.txt
+  107  grep -nw sudo file.txt
+  108  grep -w sudo file.txt
+  109  ls -lah file.txt
+  110  chmod 777 file.txt
+  111  ls -lah file.txt
+  112  chmod 444 file.txt
+  113  ls -lah file.txt
+  114  chmod 777 file.txt
+  115  ls -lah file.txt
+  116  id vageesha
+  117  chown vageesha:1000 file.txt
+  118  ls -lah file.txt
+  119  chmod u+r,g+r,o+r file.txt
+  120  ls -lah file.txt
+  121  cp file.txt
+  122  cp --help
+  123  pwd
+  124  cp file.txt /home/vageesha /home/downloads
+  125  cp file.txt /home/vageesha /home/Downloads
+  126  cp file.txt /home/vageesha /home/Documents
+  127  cp file.txt /home/vageesha /home
+  128  cp -r file.txt /home/vageesha /home
+  129  cp -r file.txt /home/vageesha /home/Examples
+  130  cd home
+  131  cdls
+  132  ls
+  133  cp file.txt /home/vageesha /home/Documents
+  134  cp file.txt /home/vageesha /Documents
+  135  cp file.txt /home/vageesha //Documents
+  136  cd Documents/
+  137  ls
+  138  cd ..
+  139  ls
+  140  cd ..
+  141  ls
+  142  cd vageesha/
+  143  ls
+  144  pwd
+  145  cp file.txt /home/vageesha /home/Downloads
+  146  dir
+  147  cp file.txt /home/vageesha /home/vageesha/Downloads
+  148  cp -r file.txt /home/vageesha /home/vageesha/Downloads
+  149  cp fr file.txt /home/vageesha /home/vageesha/Downloads
+  150  cp -f file.txt /home/vageesha /home/vageesha/Downloads
+  151  history > file.txt
+  152  cat file.txt
+  153  mkdir file
+  154  cp -f file.txt /home/vageesha /home/vageesha/file
+  155  cp -fr file.txt /home/vageesha /home/vageesha/file
+  156  rmdir file
+  157  cd file
+  158  ls
+  159  cd ..
+  160  rm -rf file
+  161  history > file.txt
+  162  cp file.txt file.txt.orig
+  163  ls
+  164  cp file.txt file.txt~
+  165  ls
+  166  vi file.txt~
+  167  ls -lah
+  168  rm file.txt.orig
+  169  ls -lah file.txt
+  170  ls -la
+  171  ls -lh
+  172  cp file.txt copied_file.txt
+  173  ls -lh
+  174  vi copied_file.txt 
+  175  history > file.txt,copied_file.txt
+  176  vi copied_file.txt 
+  177  history > file.txt
+  178  history > copied_file.txt
+  179  vi copied_file.txt 
+  180  rm file.txt~
+  181  ls
+  182  crontab -e
+  183  crontab -l
+  184  systemctl
+  185  systemctl -start apparmor.service
+  186  systemctl -restart apparmor.service
+  187  systemctl -reload apparmor.service
+  188  journalctl
+  189  history >file.txt
+  190  vi file.txt
+  191  history >copied_file.txt
+  192  history > copied_file.txt
+  193  history > file.txt
+  194  tail file.txt
+  195  chgrp file.txt
+  196  cat /etc/group
+  197  chgrp 126 file.txt
+  198  ls file.txt
+  199  ls -lah file.txt
+  200  history > file.txt
+  201  tail file.txt
+  202  chgroup 1000 file.txt
+  203  chgrp 1000 file.txt
+  204  ls -lah
+  205  ls -lah file.txt
+  206  history > file.txt
+  207  cat file.txt
+  208  tail file.txt
+  209  history > copied_file.txt
+  210  tail copied_file.txt
+  211  bash
+  212  exit
+  213  exit terminal
+  214  youtube-dl -ctf 18 https://www.youtube.com/playlist?list=PLhW3qG5bs-L8EU_Oocu6RkNPpYpaamtXX
+  215  git --version
+  216  git config --global user.email "vageesha.job@gmail.com"
+  217  git config --global user.name "VageeshaB"
+  218  cd /media/vageesha/01D415C545D3DC40/UpSkill
+  219  cd Git/
+  220  mkdir ASS1
+  221  ls
+  222  git init
+  223  git status
+  224  ls
+  225  cs ass
+  226  cd ass
+  227  cd ASS1/
+  228  git init
+  229  git status
+  230  git add
+  231  git status
+  232  touch file.tx
+  233  touch file.txt
+  234  ls
+  235  rm file.tx
+  236  ls
+  237  git add
+  238  git add file.txt
+  239  git status
+  240  git commit -m "new file created and added"
+  241  git status
+  242  vi file.txt
+  243  touch file2.txt
+  244  ls
+  245  git status
+  246  git add .
+  247  git status
+  248  git commit -m "new file with modified the old"
+  249  git status
+  250  git remote add origin https://github.com/VageeshaB/repo1.git
+  251  git push -u origin master
+  252  git remote add origin https://github.com/VageeshaB/repo1.git
+  253  git branch -M main
+  254  git remote add origin https://github.com/VageeshaB/repo1.git
+  255  git push -u origin master
+  256  git push -u origin main
+  257  git config --list
+  258  git push -u origin main
+  259  git push https://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@github.com/VageeshaB/repo1.git
+  260  git push -u origin master
+  261  git push -u origin main
+  262  git push https://github.com/VageeshaB/repo1
+  263  git status
+  264  git config -l
+  265  git push https://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@github.com/VageeshaB/<repo1
+  266  git push https://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@github.com/VageeshaB/repo1
+  267  touch cmd_history.txt
+  268  history > cmd_history.txt 
