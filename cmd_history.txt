@@ -212,57 +212,144 @@
   212  exit
   213  exit terminal
   214  youtube-dl -ctf 18 https://www.youtube.com/playlist?list=PLhW3qG5bs-L8EU_Oocu6RkNPpYpaamtXX
-  215  git --version
-  216  git config --global user.email "vageesha.job@gmail.com"
-  217  git config --global user.name "VageeshaB"
-  218  cd /media/vageesha/01D415C545D3DC40/UpSkill
-  219  cd Git/
-  220  mkdir ASS1
-  221  ls
-  222  git init
-  223  git status
-  224  ls
-  225  cs ass
-  226  cd ass
-  227  cd ASS1/
-  228  git init
-  229  git status
-  230  git add
-  231  git status
-  232  touch file.tx
-  233  touch file.txt
-  234  ls
-  235  rm file.tx
-  236  ls
-  237  git add
-  238  git add file.txt
-  239  git status
-  240  git commit -m "new file created and added"
-  241  git status
-  242  vi file.txt
-  243  touch file2.txt
-  244  ls
-  245  git status
-  246  git add .
-  247  git status
-  248  git commit -m "new file with modified the old"
-  249  git status
-  250  git remote add origin https://github.com/VageeshaB/repo1.git
-  251  git push -u origin master
-  252  git remote add origin https://github.com/VageeshaB/repo1.git
-  253  git branch -M main
-  254  git remote add origin https://github.com/VageeshaB/repo1.git
-  255  git push -u origin master
-  256  git push -u origin main
-  257  git config --list
-  258  git push -u origin main
-  259  git push https://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@github.com/VageeshaB/repo1.git
+  215  cd /media/vageesha/01D415C545D3DC40/UpSkill/Git
+  216  git clone https://github.com/bregman-arie/devops-exercises
+  217  cdq
+  218  cd \
+  219  cd..
+  220  cd \
+  221  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+  222  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+  223  minikube start
+  224  minikube delete
+  225  which minikube
+  226  sudo dpkg --purge minikube
+  227  sudo dpkg --purge git
+  228  glxinfo -B
+  229  gixinfo -B
+  230  sudo lshw -c video | grep 'configuration'
+  231  sudo lshw -c video
+  232  push -u repo1 master
+  233  git push -u repo1 master
+  234  gi9t remote
+  235  git remote
+  236  git remote -v
+  237  git pull repo1
+  238  cd /media/vageesha/01D415C545D3DC40/UpSkill/Git
+  239  ls
+  240  cd git_projects/
+  241  git remote -v
+  242  git clone https://github.com/VageeshaB/repo1
+  243  git remote -v
+  244  git log
+  245  ls
+  246  cd repo1/
+  247  git remote -v
+  248  git pull origin
+  249  git push origin main
+  250  git push -u origin main
+  251  git push -f origin main
+  252  git branch - main master
+  253  git branch -m main master
+  254  git fetch origin
+  255  git branch -orgin/master master
+  256  git branch -u orgin/master master
+  257  git branch -u origin/master master
+  258  git remote set-head origin -a
+  259  git log --graph --all
   260  git push -u origin master
-  261  git push -u origin main
-  262  git push https://github.com/VageeshaB/repo1
+  261  ls
+  262  vi push.txt
   263  git status
-  264  git config -l
-  265  git push https://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@github.com/VageeshaB/<repo1
-  266  git push https://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@github.com/VageeshaB/repo1
-  267  touch cmd_history.txt
-  268  history > cmd_history.txt 
+  264  git add .
+  265  git commit -m "checking push operation using push.txt file"
+  266  git status
+  267  git push -u origin master
+  268  git branch
+  269  git checkout -b dev
+  270  ls
+  271  vi push.txt 
+  272  git add .
+  273  git commit -m "pull operation after push to source and updated push file in local"
+  274  git remote
+  275  git push origin dev
+  276  git merge master
+  277  git merge dev
+  278  git log --graph --all
+  279  git push -u origin master
+  280  git pull origin master
+  281  git push -u origin master
+  282  git fetch origin
+  283  git checkout -b dev origin/dev
+  284  git merge master
+  285  git checkout master
+  286  git merge --no-ff dev
+  287  git merge dev
+  288  git pull origin master
+  289  git push -u origin master
+  290  git merge dev
+  291  git merge --abort
+  292  git merge dev
+  293  git fetch
+  294  git merge dev
+  295  git merge origin/master
+  296  git pull origin master
+  297  git status
+  298  git add .
+  299  git commit -m "unmerged file error"
+  300  git status
+  301  git merge dev
+  302  git merge master
+  303  git merge --abort
+  304  git merge master
+  305  git merge dev
+  306  git branch
+  307  git branch -d (no branch, rebasing dev)
+  308  git branch
+  309  git merge origin/master
+  310  git merge origin/dev
+  311  git pull origin master
+  312  git pull origin dev
+  313  git switch master
+  314  git merge dev
+  315  git push -u origin master
+  316  git push -u origin dev
+  317  git pull -u origin dev
+  318  git pull  origin dev
+  319  git fetch
+  320  git pull 
+  321  git status
+  322  git add.
+  323  git add .
+  324  git commit -m "error resolved"
+  325  git status
+  326  git log --graph --all
+  327  git status
+  328  git rebase --continue
+  329  git status
+  330  git switch master
+  331  git status
+  332  git merge master
+  333  git merge origin/master
+  334  git commit -m "merged origin/master to master"
+  335  git status
+  336  git log --graph --all
+  337  git pull origin master
+  338  git push -u origin master
+  339  git push -u origin dev
+  340  git switch dev
+  341  git status
+  342  git pull origin dev
+  343  git push origin master
+  344  git push origin dev
+  345  git status
+  346  git add .
+  347  git commit -m "pulled from source to local and commit to remove push error"
+  348  git status
+  349  git rebase --continue
+  350  git status
+  351  git push -u dev
+  352  git push -u origin dev
+  353  git log --graph --all
+  354  git history > cmd_history.txt
+  355  history > cmd_history.txt
