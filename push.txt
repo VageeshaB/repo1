@@ -1,2 +1,5 @@
 to push we need to select username VageeshB
 Pdw: PAT need to be entered, it worked today
+
+#updated in remote:
+Push is successful from local to remote
