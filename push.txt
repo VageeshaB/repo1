@@ -1,4 +1,5 @@
 to push we need to select username VageeshB
+<<<<<<< HEAD
 
 Pwd: PAT need to be entered, it worked toda
 
@@ -6,7 +7,25 @@ Pwd: PAT need to be entered, it worked toda
 this update is from local: for pull operation
 
 Pdw: PAToken need to be entered, it worked today
+||||||| parent of 5677b85 (unmerged file error)
+Pdw: PAT need to be entered, it worked today
+=======
+<<<<<<< HEAD
+Pdw: PAT need to be entered, it worked today
+>>>>>>> 5677b85 (unmerged file error)
 
 #updated in remote:
 Push is successful from local to remote
+<<<<<<< HEAD
 
+||||||| parent of 5677b85 (unmerged file error)
+=======
+||||||| parent of 112702a (pull operation after push to source and updated push file in local)
+Pdw: PAT need to be entered, it worked today
+=======
+Pdw: PAT need to be entered, it worked toda
+
+
+this update is from local: for pull operation
+>>>>>>> 112702a (pull operation after push to source and updated push file in local)
+>>>>>>> 5677b85 (unmerged file error)
